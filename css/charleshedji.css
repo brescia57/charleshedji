@@ -1,0 +1,116 @@
+body{
+	background-image: url("road-1.jpg");
+	background-color: lightblue;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Quattrocento', 'Lato', sans-serif; 
+	font-size: 30px;
+	color: white;
+
+}
+span{
+	font-weight: 10px;
+}
+
+.content{
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+a{
+	color: lightblue;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+@media only screen and (max-width: 360px){
+	body{
+		background-color: black;
+		background-image: none;
+		font-size: 10px;
+
+	}
+	.content{
+		margin-top: 100px;
+		margin-left: 0px;
+		max-width: 200px;
+	}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 412px){
+	body{
+		background-color: black;
+		background-image: none;
+		font-size: 16px;
+
+	}
+	.content{
+		margin-top: 100px;
+		margin-left: 12px;
+		max-width: 300px;
+
+	}
+}
+
+@media only screen and (min-width: 413px) and (max-width: 767px){
+	body{
+		
+		background-image: none;
+		font-size: 20px;
+
+	}
+	.content{
+		margin-top: 100px;
+		margin-left: 10px;
+		max-width: 400px;
+	}
+
+	a{
+		color: black;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px){
+	body{
+		background-color: ;
+		background-image: url("21-abstract.jpg");
+		background-size: 100%;
+		font-size: 30px;
+
+	}
+	.content{
+		margin-top: 400px;
+		margin-left: 50px;
+		
+	}
+
+	a{
+		color: black;
+	}
+}
+
+@media only screen and (min-width: 801px){
+	body{
+		height: 100%;
+		width: 100%;
+		background-size: cover;
+		font-size: 30px;
+
+	}
+	.content{
+		margin-top: 400px;
+		margin-left: 50px;
+		
+	}
+
+	a{
+		color: lightblue;
+	}
+}

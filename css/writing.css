@@ -1,0 +1,21 @@
+body{
+	padding-top: 50px;
+}
+
+.em-text{
+	color: #1caa98;
+}
+
+.fixed-action-btn{
+	size: 40px;
+	float: right;
+
+}
+
+.btn-floating{
+	size: 40px;
+}
+
+.folliage{
+	text-align: center;
+}
