@@ -36,6 +36,11 @@ nav{
   max-height: 50%;
 }
 
+#jsquiz{
+  max-width: 100%;
+  max-height: 50%;
+}
+
 br{
   padding: 30px;
 }
